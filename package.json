@@ -1,0 +1,23 @@
+{
+  "name": "voice-trainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:ts && npm run watch:sass",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "sass --no-source-map --watch src/style.scss:public/css/style.css",
+    "watch:ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://robinlake: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@github.com/robinlake/voice-trainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinlake/voice-trainer/issues"
+  },
+  "homepage": "https://github.com/robinlake/voice-trainer#readme"
+}
