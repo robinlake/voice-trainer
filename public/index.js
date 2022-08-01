@@ -1,3 +1,3 @@
 "use strict";
 console.log('foo');
-console.log('bart');
+console.log('barb');
